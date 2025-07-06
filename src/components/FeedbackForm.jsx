@@ -16,7 +16,7 @@ const FeedbackForm = ({setSV, SV, setS}) => {
 
   return (
     <div className={styles['Container']}>
-      <div className={styles['Image']}><img src="../images/icon-star.svg" /></div>
+      <div className={styles['Image']}><img src="/images/icon-star.svg" /></div>
       <div id={styles['feedback-text']}>
         <h2>How did we do?</h2>
         <p>Please let us know how we did with your support request. All feedback is appreciated 
