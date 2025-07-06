@@ -1,0 +1,32 @@
+@import '../variables.css';
+
+.Rating {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 18%;
+  align-items: center;
+}
+
+.Rating .rating-child {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  background-color: var(--clr-grey900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-grey500);
+  font-weight: var(--fw-bold);
+}
+
+.Rating .rating-child:hover {
+  background-color: var(--clr-orange);
+  color: var(--clr-grey950);
+  font-size: 18px;
+}
+
+.Rating .rating-child.selected {
+  background-color: var(--clr-white);
+  color: var(--clr-grey950);
+  font-size: 18px;
+}

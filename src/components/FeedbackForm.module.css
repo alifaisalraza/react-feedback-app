@@ -1,0 +1,82 @@
+/* Variable Imports */
+@import '../variables.css';
+
+.Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Container .Image {
+  background-color: var(--clr-grey900);
+  width: 15%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.Container .Image img{
+  object-fit: none;
+}
+
+.Container  #feedback-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 12px;
+}
+
+.Container  #feedback-text p {
+  color: var(--clr-grey500);
+  font-size: 12px;
+}
+
+.Container  #feedback-text h2 {
+  color: var(--clr-white);
+  font-weight: bold;
+}
+
+.Submit {
+  display: flex;
+  justify-content: center;
+  height: 12.5%;
+  margin-bottom: 2%;
+  margin-bottom: 15px;
+}
+
+.Submit .Button {
+  background-color: var(--clr-orange);
+  border-radius: 25px;
+  width: 100%;
+  font-weight: var(--fw-bold-plus);
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Submit .Button {
+  background-color: var(--clr-orange);
+  border-radius: 25px;
+  width: 100%;
+  font-weight: var(--fw-bold-plus);
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Submit .Button:hover {
+  background-color: var(--clr-white);
+}
+
+.Submit .Button.submitted {
+  background-color: var(--clr-white);
+}
