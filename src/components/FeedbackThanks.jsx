@@ -1,11 +1,12 @@
 /** Styling imports */
 import styles from './FeedbackThanks.module.css'
+import thanksImage from '../images/illustration-thank-you.svg'
 
 const FeedbackThanks = ({SV}) => {
   return (
     <div className={styles['Container']}>
       <div className={styles['Top']}>
-        <img src="/images/illustration-thank-you.svg" />
+        <img src={thanksImage} />
         <div className={styles['Selection']}>You selected {SV} out of 5</div>
       </div>
       <div className={styles['Bottom']}>
